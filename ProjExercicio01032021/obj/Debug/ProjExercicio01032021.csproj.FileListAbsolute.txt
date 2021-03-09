@@ -1,0 +1,14 @@
+C:\Users\Caio\source\repos\SolutionExercicio01032021\ProjExercicio01032021\bin\Debug\ProjExercicio01032021.exe.config
+C:\Users\Caio\source\repos\SolutionExercicio01032021\ProjExercicio01032021\bin\Debug\ProjExercicio01032021.exe
+C:\Users\Caio\source\repos\SolutionExercicio01032021\ProjExercicio01032021\bin\Debug\ProjExercicio01032021.pdb
+C:\Users\Caio\source\repos\SolutionExercicio01032021\ProjExercicio01032021\obj\Debug\ProjExercicio01032021.csprojAssemblyReference.cache
+C:\Users\Caio\source\repos\SolutionExercicio01032021\ProjExercicio01032021\obj\Debug\ProjExercicio01032021.csproj.CoreCompileInputs.cache
+C:\Users\Caio\source\repos\SolutionExercicio01032021\ProjExercicio01032021\obj\Debug\ProjExercicio01032021.exe
+C:\Users\Caio\source\repos\SolutionExercicio01032021\ProjExercicio01032021\obj\Debug\ProjExercicio01032021.pdb
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio01032021\ProjExercicio01032021\obj\Debug\ProjExercicio01032021.csprojAssemblyReference.cache
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio01032021\ProjExercicio01032021\obj\Debug\ProjExercicio01032021.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio01032021\ProjExercicio01032021\obj\Debug\ProjExercicio01032021.exe
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio01032021\ProjExercicio01032021\obj\Debug\ProjExercicio01032021.pdb
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio01032021\ProjExercicio01032021\bin\Debug\ProjExercicio01032021.exe.config
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio01032021\ProjExercicio01032021\bin\Debug\ProjExercicio01032021.exe
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio01032021\ProjExercicio01032021\bin\Debug\ProjExercicio01032021.pdb
