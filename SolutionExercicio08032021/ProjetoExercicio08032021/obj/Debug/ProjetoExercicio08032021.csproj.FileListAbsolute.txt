@@ -1,0 +1,7 @@
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio08032021\ProjetoExercicio08032021\bin\Debug\ProjetoExercicio08032021.exe.config
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio08032021\ProjetoExercicio08032021\bin\Debug\ProjetoExercicio08032021.exe
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio08032021\ProjetoExercicio08032021\bin\Debug\ProjetoExercicio08032021.pdb
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio08032021\ProjetoExercicio08032021\obj\Debug\ProjetoExercicio08032021.csprojAssemblyReference.cache
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio08032021\ProjetoExercicio08032021\obj\Debug\ProjetoExercicio08032021.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio08032021\ProjetoExercicio08032021\obj\Debug\ProjetoExercicio08032021.exe
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\SolutionExercicio08032021\ProjetoExercicio08032021\obj\Debug\ProjetoExercicio08032021.pdb
