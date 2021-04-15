@@ -1,0 +1,27 @@
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\Atividade em Sala\SolutionExercicio22032021\Dal\bin\Debug\Dal.dll
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\Atividade em Sala\SolutionExercicio22032021\Dal\bin\Debug\Dal.pdb
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\Atividade em Sala\SolutionExercicio22032021\Dal\bin\Debug\Model.dll
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\Atividade em Sala\SolutionExercicio22032021\Dal\bin\Debug\Model.pdb
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\Atividade em Sala\SolutionExercicio22032021\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\Atividade em Sala\SolutionExercicio22032021\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\Atividade em Sala\SolutionExercicio22032021\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\Atividade em Sala\SolutionExercicio22032021\Dal\obj\Debug\Dal.dll
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\Atividade em Sala\SolutionExercicio22032021\Dal\obj\Debug\Dal.pdb
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\ADO.NET\SolutionExercicio29032021\Dal\bin\Debug\Dal.dll
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\ADO.NET\SolutionExercicio29032021\Dal\bin\Debug\Dal.pdb
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\ADO.NET\SolutionExercicio29032021\Dal\bin\Debug\Model.dll
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\ADO.NET\SolutionExercicio29032021\Dal\bin\Debug\Model.pdb
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\ADO.NET\SolutionExercicio29032021\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\ADO.NET\SolutionExercicio29032021\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\ADO.NET\SolutionExercicio29032021\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\ADO.NET\SolutionExercicio29032021\Dal\obj\Debug\Dal.dll
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\ADO.NET\SolutionExercicio29032021\Dal\obj\Debug\Dal.pdb
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\WebForms\SolutionExercicio05042021\Dal\bin\Debug\Dal.dll
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\WebForms\SolutionExercicio05042021\Dal\bin\Debug\Dal.pdb
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\WebForms\SolutionExercicio05042021\Dal\bin\Debug\Model.dll
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\WebForms\SolutionExercicio05042021\Dal\bin\Debug\Model.pdb
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\WebForms\SolutionExercicio05042021\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\WebForms\SolutionExercicio05042021\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\WebForms\SolutionExercicio05042021\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\WebForms\SolutionExercicio05042021\Dal\obj\Debug\Dal.dll
+C:\GitHub\TopicosAvancadosemSistemasdeInformacao\WebForms\SolutionExercicio05042021\Dal\obj\Debug\Dal.pdb
