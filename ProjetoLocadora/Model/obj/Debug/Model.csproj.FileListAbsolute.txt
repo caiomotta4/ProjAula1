@@ -1,0 +1,6 @@
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\ProjetoLocadora\Model\bin\Debug\Model.dll
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\ProjetoLocadora\Model\bin\Debug\Model.pdb
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\ProjetoLocadora\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\ProjetoLocadora\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\ProjetoLocadora\Model\obj\Debug\Model.dll
+D:\Program Files (x86)\Microsoft Visual Studio\Projetos\ProjetoLocadora\Model\obj\Debug\Model.pdb
