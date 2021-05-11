@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoRevisao", "ProjetoRevisao\ProjetoRevisao.csproj", "{3E131C49-3D1B-48B6-91F3-8F021705A0A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "Dal\Dal.csproj", "{5B8C9E27-1EB4-4027-A157-8E2B64E79A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{A92C6BE1-4278-4503-8383-5677E80968DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E131C49-3D1B-48B6-91F3-8F021705A0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E131C49-3D1B-48B6-91F3-8F021705A0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E131C49-3D1B-48B6-91F3-8F021705A0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E131C49-3D1B-48B6-91F3-8F021705A0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8C9E27-1EB4-4027-A157-8E2B64E79A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8C9E27-1EB4-4027-A157-8E2B64E79A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8C9E27-1EB4-4027-A157-8E2B64E79A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8C9E27-1EB4-4027-A157-8E2B64E79A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A92C6BE1-4278-4503-8383-5677E80968DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92C6BE1-4278-4503-8383-5677E80968DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92C6BE1-4278-4503-8383-5677E80968DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92C6BE1-4278-4503-8383-5677E80968DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {739E6C6A-FA57-46E2-8C29-C1345174C2B2}
+	EndGlobalSection
+EndGlobal
