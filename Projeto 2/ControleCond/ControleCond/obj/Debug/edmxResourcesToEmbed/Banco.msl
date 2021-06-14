@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ControleCondDBModelStoreContainer" CdmEntityContainer="ControleCondDBEntities">
+    <EntitySetMapping Name="TB_APARTAMENTO">
+      <EntityTypeMapping TypeName="ControleCondDBModel.TB_APARTAMENTO">
+        <MappingFragment StoreEntitySet="TB_APARTAMENTO">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="numero_apto" ColumnName="numero_apto" />
+          <ScalarProperty Name="qtd_moradores" ColumnName="qtd_moradores" />
+          <ScalarProperty Name="bloco" ColumnName="bloco" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_BLOCO">
+      <EntityTypeMapping TypeName="ControleCondDBModel.TB_BLOCO">
+        <MappingFragment StoreEntitySet="TB_BLOCO">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="numero_bloco" ColumnName="numero_bloco" />
+          <ScalarProperty Name="qtd_apartamentos" ColumnName="qtd_apartamentos" />
+          <ScalarProperty Name="qtd_andar" ColumnName="qtd_andar" />
+          <ScalarProperty Name="total_moradores" ColumnName="total_moradores" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_COND">
+      <EntityTypeMapping TypeName="ControleCondDBModel.TB_COND">
+        <MappingFragment StoreEntitySet="TB_COND">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nome_cond" ColumnName="nome_cond" />
+          <ScalarProperty Name="area_terreno" ColumnName="area_terreno" />
+          <ScalarProperty Name="blocos" ColumnName="blocos" />
+          <ScalarProperty Name="unida_andar" ColumnName="unida_andar" />
+          <ScalarProperty Name="apartamentos" ColumnName="apartamentos" />
+          <ScalarProperty Name="area_apartamento" ColumnName="area_apartamento" />
+          <ScalarProperty Name="vagas" ColumnName="vagas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_MORADOR">
+      <EntityTypeMapping TypeName="ControleCondDBModel.TB_MORADOR">
+        <MappingFragment StoreEntitySet="TB_MORADOR">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="idade" ColumnName="idade" />
+          <ScalarProperty Name="cpf" ColumnName="cpf" />
+          <ScalarProperty Name="bloco" ColumnName="bloco" />
+          <ScalarProperty Name="apto" ColumnName="apto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

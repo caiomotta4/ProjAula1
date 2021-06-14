@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ControleCondDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TB_APARTAMENTO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numero_apto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="qtd_moradores" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="bloco" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TB_BLOCO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numero_bloco" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="qtd_apartamentos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="qtd_andar" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="total_moradores" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TB_COND">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_cond" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="area_terreno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="blocos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="unida_andar" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="apartamentos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="area_apartamento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="vagas" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TB_MORADOR">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idade" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="cpf" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="bloco" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="apto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ControleCondDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TB_APARTAMENTO" EntityType="Self.TB_APARTAMENTO" />
+    <EntitySet Name="TB_BLOCO" EntityType="Self.TB_BLOCO" />
+    <EntitySet Name="TB_COND" EntityType="Self.TB_COND" />
+    <EntitySet Name="TB_MORADOR" EntityType="Self.TB_MORADOR" />
+  </EntityContainer>
+</Schema>

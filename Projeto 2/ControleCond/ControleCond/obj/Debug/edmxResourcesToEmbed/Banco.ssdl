@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ControleCondDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TB_APARTAMENTO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numero_apto" Type="varchar" MaxLength="50" />
+    <Property Name="qtd_moradores" Type="varchar" MaxLength="50" />
+    <Property Name="bloco" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TB_BLOCO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="numero_bloco" Type="varchar" MaxLength="50" />
+    <Property Name="qtd_apartamentos" Type="varchar" MaxLength="50" />
+    <Property Name="qtd_andar" Type="varchar" MaxLength="50" />
+    <Property Name="total_moradores" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TB_COND">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nome_cond" Type="varchar" MaxLength="50" />
+    <Property Name="area_terreno" Type="varchar" MaxLength="50" />
+    <Property Name="blocos" Type="varchar" MaxLength="50" />
+    <Property Name="unida_andar" Type="varchar" MaxLength="50" />
+    <Property Name="apartamentos" Type="varchar" MaxLength="50" />
+    <Property Name="area_apartamento" Type="varchar" MaxLength="50" />
+    <Property Name="vagas" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TB_MORADOR">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nome" Type="varchar" MaxLength="50" />
+    <Property Name="idade" Type="varchar" MaxLength="50" />
+    <Property Name="cpf" Type="varchar" MaxLength="50" />
+    <Property Name="bloco" Type="varchar" MaxLength="50" />
+    <Property Name="apto" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ControleCondDBModelStoreContainer">
+    <EntitySet Name="TB_APARTAMENTO" EntityType="Self.TB_APARTAMENTO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_BLOCO" EntityType="Self.TB_BLOCO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_COND" EntityType="Self.TB_COND" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_MORADOR" EntityType="Self.TB_MORADOR" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

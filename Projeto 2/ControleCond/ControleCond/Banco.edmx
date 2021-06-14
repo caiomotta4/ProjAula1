@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ControleCondDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TB_APARTAMENTO">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numero_apto" Type="varchar" MaxLength="50" />
+          <Property Name="qtd_moradores" Type="varchar" MaxLength="50" />
+          <Property Name="bloco" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TB_BLOCO">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numero_bloco" Type="varchar" MaxLength="50" />
+          <Property Name="qtd_apartamentos" Type="varchar" MaxLength="50" />
+          <Property Name="qtd_andar" Type="varchar" MaxLength="50" />
+          <Property Name="total_moradores" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TB_COND">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nome_cond" Type="varchar" MaxLength="50" />
+          <Property Name="area_terreno" Type="varchar" MaxLength="50" />
+          <Property Name="blocos" Type="varchar" MaxLength="50" />
+          <Property Name="unida_andar" Type="varchar" MaxLength="50" />
+          <Property Name="apartamentos" Type="varchar" MaxLength="50" />
+          <Property Name="area_apartamento" Type="varchar" MaxLength="50" />
+          <Property Name="vagas" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TB_MORADOR">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nome" Type="varchar" MaxLength="50" />
+          <Property Name="idade" Type="varchar" MaxLength="50" />
+          <Property Name="cpf" Type="varchar" MaxLength="50" />
+          <Property Name="bloco" Type="varchar" MaxLength="50" />
+          <Property Name="apto" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="ControleCondDBModelStoreContainer">
+          <EntitySet Name="TB_APARTAMENTO" EntityType="Self.TB_APARTAMENTO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_BLOCO" EntityType="Self.TB_BLOCO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_COND" EntityType="Self.TB_COND" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_MORADOR" EntityType="Self.TB_MORADOR" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ControleCondDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TB_APARTAMENTO">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numero_apto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="qtd_moradores" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="bloco" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TB_BLOCO">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numero_bloco" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="qtd_apartamentos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="qtd_andar" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="total_moradores" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TB_COND">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nome_cond" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="area_terreno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="blocos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="unida_andar" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="apartamentos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="area_apartamento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="vagas" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TB_MORADOR">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="idade" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="cpf" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="bloco" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="apto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="ControleCondDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TB_APARTAMENTO" EntityType="Self.TB_APARTAMENTO" />
+          <EntitySet Name="TB_BLOCO" EntityType="Self.TB_BLOCO" />
+          <EntitySet Name="TB_COND" EntityType="Self.TB_COND" />
+          <EntitySet Name="TB_MORADOR" EntityType="Self.TB_MORADOR" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ControleCondDBModelStoreContainer" CdmEntityContainer="ControleCondDBEntities">
+          <EntitySetMapping Name="TB_APARTAMENTO">
+            <EntityTypeMapping TypeName="ControleCondDBModel.TB_APARTAMENTO">
+              <MappingFragment StoreEntitySet="TB_APARTAMENTO">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="numero_apto" ColumnName="numero_apto" />
+                <ScalarProperty Name="qtd_moradores" ColumnName="qtd_moradores" />
+                <ScalarProperty Name="bloco" ColumnName="bloco" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_BLOCO">
+            <EntityTypeMapping TypeName="ControleCondDBModel.TB_BLOCO">
+              <MappingFragment StoreEntitySet="TB_BLOCO">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="numero_bloco" ColumnName="numero_bloco" />
+                <ScalarProperty Name="qtd_apartamentos" ColumnName="qtd_apartamentos" />
+                <ScalarProperty Name="qtd_andar" ColumnName="qtd_andar" />
+                <ScalarProperty Name="total_moradores" ColumnName="total_moradores" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_COND">
+            <EntityTypeMapping TypeName="ControleCondDBModel.TB_COND">
+              <MappingFragment StoreEntitySet="TB_COND">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nome_cond" ColumnName="nome_cond" />
+                <ScalarProperty Name="area_terreno" ColumnName="area_terreno" />
+                <ScalarProperty Name="blocos" ColumnName="blocos" />
+                <ScalarProperty Name="unida_andar" ColumnName="unida_andar" />
+                <ScalarProperty Name="apartamentos" ColumnName="apartamentos" />
+                <ScalarProperty Name="area_apartamento" ColumnName="area_apartamento" />
+                <ScalarProperty Name="vagas" ColumnName="vagas" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_MORADOR">
+            <EntityTypeMapping TypeName="ControleCondDBModel.TB_MORADOR">
+              <MappingFragment StoreEntitySet="TB_MORADOR">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="idade" ColumnName="idade" />
+                <ScalarProperty Name="cpf" ColumnName="cpf" />
+                <ScalarProperty Name="bloco" ColumnName="bloco" />
+                <ScalarProperty Name="apto" ColumnName="apto" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
